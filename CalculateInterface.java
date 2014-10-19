@@ -8,20 +8,6 @@ import java.util.*;
 
 public class CalculateInterface {
 	public static void main(String[] args) throws IOException {
-		//retDistances("1DC3.pdb", 'A', "1DC3.pdb", 'B', "test");
-		//retDistances("3TGO.pdb", 'A', "3TGO.pdb", 'C', "bamC-D");
-		//retDistances("Docking1A3WB-1BQ3D.pdb", 'A', "Docking1A3WB-1BQ3D.pdb", 'B', "1A3WB-1BQ3D");
-		//retDistances("O13515A-P39954A.pdb", 'A', "O13515A-P39954A.pdb", 'B', "O13515A-P39954A");
-		/*processXLinkDBTable("dockingmodeller.txt", "dockingmodeller.input");
-		processXLinkDBTable("dockingpdbexisting.txt", "dockingpdbexisting.input");
-		processXLinkDBTable("dockingphyre.txt", "dockingphyre.input");*/
-		/*getInterface("dockingmodeller.input", "dockingmodeller.output", "F:/pdb");
-		getInterface("dockingpdbexisting.input", "dockingpdbexisting.output", "F:/pdb");
-		getInterface("dockingphyre.input", "dockingphyre.output", "F:/pdb");*/
-		//analyzeProteinInterface(getProteinDB("dockingphyre.output"), "interfaceAnalysis.out");
-		//analyzeProteinInterface("cocrystal.filtered", "interface.length"
-				//, "/home/czheng/Script_Pool/benchmark_dataset/");
-		
 	}
 	public static void analyzeProteinInterface(String in, String out, String dir) throws IOException {
 		FileReader fr = new FileReader(dir + "/" + in);
